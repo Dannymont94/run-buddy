@@ -86,7 +86,6 @@ section {
     position: absolute;
     bottom: 120px;
     right: 140px;
-    line-height: ;
 }
 
 .hero-form h3 {
@@ -222,4 +221,45 @@ section {
 .trainer-bio p {
     font-size: 17px;
     line-height: 1.3;
+}
+
+.contact {
+    background-color: #024e76;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #fce138;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+
+.contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+}
+
+.contact-info p,
+.contact address {
+    margin: 20px 0;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+.contact-info a {
+    color: #fce138;
 }
