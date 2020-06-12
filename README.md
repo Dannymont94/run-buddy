@@ -11,6 +11,4 @@ A website that offers fitness training services.
 https://Dannymont94.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by Daniel Monterrosa
-
-### ©️2019 Run Buddy, Inc 
+Made by Daniel Monterrosa
