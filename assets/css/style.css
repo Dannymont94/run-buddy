@@ -249,6 +249,22 @@ section {
    border-color: var(--tertiary-color);
 }
 
+.intro,
+.steps,
+.meet-the-trainers,
+.services {
+    position: relative;
+}
+
+#what-we-do,
+#what-you-do,
+#your-trainers,
+#service-plans {
+    content: "";
+    position: absolute;
+    top: -50px;
+}
+
 .intro p {
     line-height: 1.7;
     color: var(--tertiary-color);
@@ -260,6 +276,7 @@ section {
 
 .steps {
     background: var(--primary-color);
+    padding-bottom: 1px;
 }
 
 .step {
@@ -350,7 +367,7 @@ section {
     top: 0;
     left: 0;
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.35s;
 }
 
 .trainer:hover .trainer-img::after {
@@ -368,10 +385,13 @@ section {
 
 .trainer-2 {
     background-image: url("../images/trainer-2.jpg");
+
 }
 
 .trainer-3 {
     background-image: url("../images/trainer-3.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .trainer-img h3 {
@@ -380,7 +400,7 @@ section {
     position: relative;
     top: 200px;
     z-index: 1;
-    transition: 0.6s;
+    transition: 0.35s;
 }
 
 .trainer-img h4 {
@@ -389,7 +409,7 @@ section {
     position: relative;
     top: 200px;
     z-index: 1;
-    transition: 0.6s;
+    transition: 0.35s;
     transition-delay: 0.1s;
 }
 
@@ -532,6 +552,10 @@ section {
     outline: none;
 }
 
+.contact-form textarea {
+    resize: none;
+}
+
 .contact-form button {
     width: 100%;
     border: none;
@@ -580,6 +604,13 @@ footer a {
         position: relative;
     }
 
+    #what-we-do,
+    #what-you-do,
+    #your-trainers,
+    #service-plans {
+        top: 0px;
+    }
+
     header h1 {
         width: 100%;
         text-align: center;
@@ -618,16 +649,6 @@ footer a {
 
     .contact-info iframe {
         flex: 1 100%;
-    }
-}
-
-@keyframes fade-in {
-    from {
-
-    }
-
-    to {
-
     }
 }
 
